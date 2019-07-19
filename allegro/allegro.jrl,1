@@ -1,0 +1,1615 @@
+\t (00:00:02) allegro 16.6 S034 (v16-6-112CQ) Windows 32
+\t (00:00:02)     Journal start - Thu Jul 18 15:12:57 2019
+\t (00:00:02)         Host=USER-PC User=user Pid=4120 CPUs=4
+\t (00:00:02) CmdLine= C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\pcb\bin\allegro.exe -orcad -mpssession user C:\USERS\USER\DESKTOP\WORK\AVRUSB500\allegro\AVRUSB500.brd
+\t (00:00:02) 
+   (00:00:02) ilinit Start.
+   (00:00:02) "C:/Users/user/Desktop/vscode_orcad/home/pcbenv"
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/USERS/USER/DESKTOP/WORK/AVRUSB500/ALLEGRO/AVRUSB500.brd
+\i (00:00:03) trapsize 10372
+\i (00:00:03) trapsize 10186
+\i (00:00:03) trapsize 10404
+\i (00:00:04) trapsize 9189
+\i (00:00:04) trapsize 13682
+\i (00:00:04) generaledit 
+\i (00:00:06) place manual 
+\i (00:00:08) setwindow form.plc_manual
+\i (00:00:08) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\w (00:00:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:08) Placing J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO on Top.
+\i (00:00:08) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:00:09) FORM plc_manual tree 'MULTISEL NO' J2 'Components by refdes' 
+\i (00:00:12) FORM plc_manual tree 'MULTISEL YES' Y2 'Components by refdes' 
+\w (00:00:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:12) Placing Y2 / ZTA_RAD450X200LS300031_6MHZ_ / RAD450X200LS300031 on Top.
+\i (00:00:12) FORM plc_manual tree  Y2 'Components by refdes' 
+\i (00:00:12) FORM plc_manual tree 'MULTISEL NO' Y2 'Components by refdes' 
+\i (00:00:13) FORM plc_manual tree 'MULTISEL YES' Y1 'Components by refdes' 
+\t (00:00:13) Placing Y1 / ZTA_RAD450X200LS300031_3.6864MH / RAD450X200LS300031 on Top.
+\i (00:00:13) FORM plc_manual tree  Y1 'Components by refdes' 
+\i (00:00:14) FORM plc_manual tree 'MULTISEL NO' Y1 'Components by refdes' 
+\i (00:00:14) FORM plc_manual done  
+\i (00:00:15) setwindow pcb
+\i (00:00:15) generaledit 
+\i (00:00:17) zoom in 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 25310.95 10972.64
+\i (00:00:17) trapsize 6841
+\i (00:00:17) grid toggle 
+\i (00:00:17) generaledit 
+\i (00:00:22) save_as 
+\i (00:00:27) fillin "AVRUSB500.brd"
+\i (00:00:27) generaledit 
+\i (00:00:40) board outline 
+   (00:00:40) Loading floor.cxt 
+   (00:00:40) Loading fputil.cxt 
+   (00:00:40) Loading axlcore.cxt 
+\i (00:00:42) setwindow form.fpbdoutline
+\i (00:00:42) FORM fpbdoutline cancel  
+\i (00:00:43) setwindow pcb
+\i (00:00:43) generaledit 
+\i (00:00:44) prmed 
+\i (00:00:46) setwindow form.prmedit
+\i (00:00:46) FORM prmedit design  
+\i (00:00:48) FORM prmedit units Centimeter 
+\e (00:00:48) Change may cause round-off; run dbcheck.
+\i (00:00:49) FORM prmedit units Millimeter 
+\e (00:00:49) Change may cause round-off; run dbcheck.
+\i (00:00:53) FORM prmedit accuracy 3 
+\e (00:00:53) Change may cause round-off; run dbcheck.
+\i (00:00:56) FORM prmedit x -50.000 
+\i (00:00:59) FORM prmedit y -50.000 
+\i (00:01:04) FORM prmedit size A4 
+\i (00:01:05) FORM prmedit done  
+\w (00:01:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:05) setwindow pcb
+\i (00:01:05) trapsize 1306
+\t (00:01:05) Performing DRC...
+\t (00:01:05) Multithreaded DRC update (4 threads).
+\t (00:01:06) No DRC errors detected.
+\i (00:01:06) generaledit 
+\i (00:01:10) define grid 
+\t (00:01:10) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:10) generaledit 
+\i (00:01:14) setwindow form.grid
+\i (00:01:14) FORM grid non_etch non_etch_x_grids 0.1 
+\i (00:01:16) FORM grid non_etch non_etch_y_grids 0.1 
+\i (00:01:16) FORM grid done  
+\t (00:01:16) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:01:28) setwindow pcb
+\i (00:01:28) board outline 
+\i (00:01:32) setwindow form.fpbdoutline
+\i (00:01:32) FORM fpbdoutline fpboclearance 3 
+\i (00:01:32) FORM fpbdoutline fpboplacerect YES 
+\i (00:01:36) FORM fpbdoutline fpboplacewdt '110 MM' 
+\i (00:01:39) FORM fpbdoutline fpboplacehgt 45 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) pick 0 0 
+\t (00:01:59) last pick:  0.000 0.000
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in -1.940 -0.112
+\t (00:02:06) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:02:06) trapsize 653
+\i (00:02:07) zoom in 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in 1.194 -0.112
+\t (00:02:07) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:02:07) trapsize 326
+\i (00:02:07) zoom in 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in 1.194 -0.112
+\t (00:02:07) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
+\i (00:02:07) trapsize 163
+\i (00:02:11) setwindow form.fpbdoutline
+\i (00:02:11) FORM fpbdoutline done  
+\i (00:02:11) setwindow pcb
+\i (00:02:11) generaledit 
+\i (00:02:13) zoom out 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom out 5.112 3.251
+\t (00:02:13) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:02:13) trapsize 326
+\i (00:02:13) zoom out 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom out 5.569 3.447
+\t (00:02:13) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:02:13) trapsize 653
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 77.920 34.528
+\t (00:02:14) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:02:14) trapsize 1306
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 182.202 89.739
+\i (00:02:14) trapsize 1306
+\i (00:02:17) place manual 
+\i (00:02:19) setwindow form.plc_manual
+\i (00:02:19) FORM plc_manual cancel  
+\i (00:02:19) setwindow pcb
+\i (00:02:19) generaledit 
+\i (00:02:20) zoom out 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom out 6.157 -12.910
+\i (00:02:20) trapsize 1306
+\i (00:02:20) zoom out 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom out 6.157 -12.910
+\i (00:02:20) trapsize 1306
+\i (00:02:24) quickplace 
+\i (00:02:27) setwindow form.quickplc
+\i (00:02:27) FORM quickplc place  
+\i (00:02:29) FORM quickplc done  
+\i (00:02:29) setwindow pcb
+\i (00:02:29) generaledit 
+\i (00:02:30) zoom in 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom in -24.142 66.493
+\t (00:02:30) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:02:30) trapsize 653
+\i (00:02:31) zoom out 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom out 12.033 36.848
+\t (00:02:31) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:02:31) trapsize 1306
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in -0.373 22.351
+\t (00:02:32) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:02:32) trapsize 653
+\i (00:02:35) pick grid 0.150 50.168
+\t (00:02:35) last pick:  0.200 50.200
+\i (00:02:36) drag_start grid 0.542 48.732
+\i (00:02:36) move 
+\t (00:02:36) last pick:  2.921 46.473
+\t (00:02:36) Moving IC1 / ATMEGA8-DIL28_1_QUAD80M32WG900_ / QUAD80M32WG900.
+\t (00:02:36) Pick new location for the element(s).
+\i (00:02:38) drag_stop grid 7.202 29.926
+\i (00:02:38) generaledit 
+\i (00:02:42) drag_start grid 11.120 50.821
+\i (00:02:42) move 
+\t (00:02:43) last pick:  14.160 46.473
+\t (00:02:43) Moving U1 / FT232BM_2_QUAD80M32WG900_FT232B / QUAD80M32WG900.
+\t (00:02:43) Pick new location for the element(s).
+\i (00:02:46) drag_stop grid 78.508 15.299
+\i (00:02:47) generaledit 
+\i (00:02:49) drag_start grid 96.661 50.430
+\i (00:02:49) move 
+\t (00:02:49) last pick:  94.417 49.226
+\t (00:02:49) Pick new location for the element(s).
+\i (00:02:51) drag_stop grid 94.441 48.209
+\i (00:02:51) generaledit 
+\i (00:02:52) pick grid 97.836 51.213
+\t (00:02:52) last pick:  97.800 51.200
+\i (00:02:53) drag_start grid 97.836 51.213
+\i (00:02:53) move 
+\t (00:02:53) last pick:  94.469 48.162
+\t (00:02:53) Moving C4 / CAPACITOR NON-POL_CPCYL1D225LS1 / CPCYL1D225LS100031.
+\t (00:02:53) Pick new location for the element(s).
+\i (00:02:55) drag_stop grid 91.437 16.344
+\i (00:02:55) generaledit 
+\i (00:02:58) drag_start grid 98.881 45.467
+\i (00:02:58) move 
+\t (00:02:58) last pick:  100.590 48.480
+\t (00:02:58) Moving D1 / LED_CYLD250LS125031_LED_ / CYLD250LS125031.
+\t (00:02:58) Pick new location for the element(s).
+\i (00:02:59) drag_stop grid 22.221 33.321
+\i (00:03:00) generaledit 
+\i (00:03:01) drag_start grid 13.993 68.060
+\i (00:03:01) move 
+\t (00:03:01) last pick:  13.689 66.882
+\t (00:03:01) Moving R10 / R_AX400X100031_470_SMDRES / AX400X100031.
+\t (00:03:01) Pick new location for the element(s).
+\i (00:03:03) drag_stop grid 30.971 33.713
+\i (00:03:03) generaledit 
+\i (00:03:05) drag_start grid 32.668 56.829
+\i (00:03:05) move 
+\t (00:03:05) last pick:  31.849 57.814
+\t (00:03:05) Moving R1 / R_AX400X100031_470_SMDRES / AX400X100031.
+\t (00:03:05) Pick new location for the element(s).
+\i (00:03:07) drag_stop grid 31.232 23.657
+\i (00:03:08) generaledit 
+\i (00:03:10) drag_start grid 0.542 56.959
+\i (00:03:10) move 
+\t (00:03:10) last pick:  1.892 59.401
+\t (00:03:10) Moving C8 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:03:10) Pick new location for the element(s).
+\i (00:03:12) drag_stop grid 7.463 17.519
+\i (00:03:12) generaledit 
+\i (00:03:14) drag_start grid 0.411 63.750
+\i (00:03:14) move 
+\t (00:03:14) last pick:  1.244 63.935
+\t (00:03:14) Moving R15 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:03:14) Pick new location for the element(s).
+\i (00:03:16) drag_stop grid 14.646 15.691
+\i (00:03:16) generaledit 
+\i (00:03:18) drag_start grid 5.765 58.396
+\i (00:03:18) move 
+\t (00:03:18) last pick:  4.251 58.934
+\t (00:03:18) Pick new location for the element(s).
+\i (00:03:20) drag_stop grid 6.810 58.265
+\i (00:03:20) generaledit 
+\i (00:03:21) drag_start grid 6.549 56.568
+\i (00:03:21) move 
+\t (00:03:21) last pick:  8.013 59.401
+\t (00:03:21) Moving C3 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031.
+\t (00:03:21) Pick new location for the element(s).
+\i (00:03:25) drag_stop grid 18.825 23.788
+\i (00:03:25) generaledit 
+\i (00:03:29) drag_start grid 6.157 19.739
+\i (00:03:29) move 
+\t (00:03:30) last pick:  7.500 17.500
+\t (00:03:30) Moving C8 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:03:30) Pick new location for the element(s).
+\i (00:03:30) drag_stop grid 7.463 9.422
+\i (00:03:31) generaledit 
+\i (00:03:32) drag_start grid 15.430 14.646
+\i (00:03:32) move 
+\t (00:03:32) last pick:  14.600 15.700
+\t (00:03:32) Moving R15 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:03:32) Pick new location for the element(s).
+\i (00:03:33) drag_stop grid 17.389 7.986
+\i (00:03:33) generaledit 
+\i (00:03:35) drag_start grid 12.295 29.273
+\i (00:03:35) move 
+\t (00:03:35) last pick:  7.200 29.900
+\t (00:03:35) Moving IC1 / ATMEGA8-DIL28_1_QUAD80M32WG900_ / QUAD80M32WG900.
+\t (00:03:35) Pick new location for the element(s).
+\i (00:03:36) drag_stop grid 8.377 15.430
+\i (00:03:37) generaledit 
+\i (00:03:38) drag_start grid 22.743 25.616
+\i (00:03:38) move 
+\t (00:03:38) last pick:  18.800 23.800
+\t (00:03:38) Moving C3 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031.
+\t (00:03:38) Pick new location for the element(s).
+\i (00:03:39) drag_stop grid 9.422 32.407
+\i (00:03:40) generaledit 
+\i (00:03:41) drag_start grid 16.997 18.956
+\i (00:03:41) move 
+\t (00:03:41) last pick:  8.400 15.400
+\t (00:03:41) Moving IC1 / ATMEGA8-DIL28_1_QUAD80M32WG900_ / QUAD80M32WG900.
+\t (00:03:41) Pick new location for the element(s).
+\i (00:03:43) drag_stop grid 15.038 15.560
+\i (00:03:43) generaledit 
+\i (00:03:45) drag_start grid -0.242 67.146
+\i (00:03:45) move 
+\t (00:03:45) last pick:  1.244 66.882
+\t (00:03:45) Moving R9 / R_AX400X100031_10K_SMDRES / AX400X100031.
+\t (00:03:45) Pick new location for the element(s).
+\i (00:03:46) drag_stop grid 6.680 39.068
+\i (00:03:46) generaledit 
+\i (00:03:47) drag_start grid 12.165 61.530
+\i (00:03:47) move 
+\t (00:03:47) last pick:  14.134 59.401
+\t (00:03:47) Moving C6 / CAPACITOR POL_CPCYL1D225LS10003 / CPCYL1D225LS100031.
+\t (00:03:47) Pick new location for the element(s).
+\i (00:03:49) drag_stop grid 6.549 21.045
+\i (00:03:49) generaledit 
+\i (00:03:51) drag_start grid 20.523 56.698
+\i (00:03:51) slide 
+\t (00:03:51) Selected item not valid for current operation, ignored: Arc Segment "Package Geometry/Assembly_Top"
+\t (00:03:51) No valid items selected for the current operation, exiting.
+\i (00:03:51) generaledit 
+\i (00:03:53) drag_stop grid 27.444 22.743
+\i (00:03:54) drag_start grid 21.306 56.959
+\i (00:03:54) slide 
+\t (00:03:54) Selected item not valid for current operation, ignored: Arc Segment "Package Geometry/Assembly_Top"
+\t (00:03:54) No valid items selected for the current operation, exiting.
+\i (00:03:54) generaledit 
+\i (00:03:55) drag_stop grid 30.187 20.784
+\i (00:03:56) pick grid 18.042 58.004
+\t (00:03:56) last pick:  18.000 58.000
+\i (00:03:58) drag_start grid 18.172 57.482
+\i (00:03:58) move 
+\t (00:03:58) last pick:  20.255 59.401
+\t (00:03:58) Moving C2 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031.
+\t (00:03:58) Pick new location for the element(s).
+\i (00:04:01) drag_stop grid 32.538 9.553
+\i (00:04:01) generaledit 
+\i (00:04:03) drag_start grid 20.915 65.448
+\i (00:04:03) move 
+\t (00:04:04) last pick:  13.689 63.935
+\t (00:04:04) Moving R2 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:04:04) Pick new location for the element(s).
+\i (00:04:06) drag_stop grid 58.657 28.098
+\i (00:04:06) generaledit 
+\i (00:04:07) drag_start grid 30.709 70.411
+\i (00:04:07) move 
+\t (00:04:08) last pick:  27.100 68.152
+\t (00:04:08) Moving Y1 / ZTA_RAD450X200LS300031_3.6864MH / RAD450X200LS300031.
+\t (00:04:08) Pick new location for the element(s).
+\i (00:04:12) drag_stop grid 43.900 9.553
+\i (00:04:12) generaledit 
+\i (00:04:15) drag_start grid 92.351 51.344
+\i (00:04:15) move 
+\t (00:04:15) last pick:  88.348 48.162
+\t (00:04:15) Moving C7 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:04:15) Pick new location for the element(s).
+\i (00:04:16) drag_stop grid 57.743 9.945
+\i (00:04:17) generaledit 
+\i (00:04:19) drag_start grid 74.851 50.168
+\i (00:04:19) move 
+\t (00:04:19) last pick:  76.106 48.162
+\t (00:04:19) Moving C5 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:04:19) Pick new location for the element(s).
+\i (00:04:20) drag_stop grid 66.362 9.945
+\i (00:04:20) generaledit 
+\i (00:04:23) drag_start grid 80.467 50.299
+\i (00:04:23) move 
+\t (00:04:23) last pick:  82.227 48.162
+\t (00:04:23) Moving C10 / CAPACITOR NON-POL_CPCYL1D225L_1 / CPCYL1D225LS100031.
+\t (00:04:23) Pick new location for the element(s).
+\i (00:04:26) drag_stop grid 73.937 34.889
+\i (00:04:26) generaledit 
+\i (00:04:27) drag_start grid 58.004 29.273
+\i (00:04:27) move 
+\t (00:04:27) last pick:  58.700 28.100
+\t (00:04:27) Moving R2 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:04:27) Pick new location for the element(s).
+\i (00:04:28) drag_stop grid 52.258 33.452
+\i (00:04:28) generaledit 
+\i (00:04:30) drag_start grid 87.519 58.788
+\i (00:04:30) move 
+\t (00:04:30) last pick:  87.750 57.814
+\t (00:04:30) Moving R14 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:04:30) Pick new location for the element(s).
+\i (00:04:31) drag_stop grid 91.829 27.706
+\i (00:04:31) generaledit 
+\i (00:04:34) drag_start grid 88.172 62.575
+\i (00:04:34) move 
+\t (00:04:34) last pick:  88.359 63.935
+\t (00:04:34) Moving R8 / R_AX400X100031_2.2_SMDRES / AX400X100031.
+\t (00:04:34) Pick new location for the element(s).
+\i (00:04:36) drag_stop grid 91.959 31.624
+\i (00:04:36) generaledit 
+\i (00:04:38) drag_start grid 31.885 47.556
+\i (00:04:38) move 
+\t (00:04:39) last pick:  24.180 46.575
+\t (00:04:39) Moving J4 / CON5_BLKCON100VHTM1SQSW1005_FIR / BLKCON100VHTM1SQSW1005.
+\t (00:04:39) Pick new location for the element(s).
+\i (00:04:42) drag_stop grid 31.493 37.892
+\i (00:04:42) generaledit 
+\i (00:04:45) drag_start grid 50.691 47.818
+\i (00:04:45) slide 
+\t (00:04:45) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:04:45) No valid items selected for the current operation, exiting.
+\i (00:04:45) generaledit 
+\i (00:04:46) drag_stop grid 50.952 38.154
+\i (00:04:48) drag_start grid 56.829 47.556
+\i (00:04:48) slide 
+\t (00:04:48) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:04:48) No valid items selected for the current operation, exiting.
+\i (00:04:48) generaledit 
+\i (00:04:49) drag_stop grid 48.471 36.717
+\i (00:04:51) drag_start grid 38.284 50.952
+\i (00:04:51) move 
+\t (00:04:51) last pick:  41.767 46.153
+\t (00:04:51) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:04:51) Pick new location for the element(s).
+\i (00:04:56) drag_stop grid 94.441 36.325
+\i (00:04:57) generaledit 
+\i (00:05:01) drag_start grid 58.527 56.829
+\i (00:05:01) move 
+\t (00:05:01) last pick:  50.415 57.814
+\t (00:05:01) Moving R11 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:05:01) Pick new location for the element(s).
+\i (00:05:04) drag_stop grid 42.724 15.168
+\i (00:05:04) generaledit 
+\i (00:05:08) drag_start grid 57.743 47.295
+\i (00:05:08) move 
+\t (00:05:08) last pick:  49.194 46.575
+\t (00:05:08) Moving J1 / CON5_BLKCON100VHTM1SQSW1005_BBP / BLKCON100VHTM1SQSW1005.
+\t (00:05:08) Pick new location for the element(s).
+\i (00:05:09) drag_stop grid 28.881 28.098
+\i (00:05:10) generaledit 
+\i (00:05:10) zoom in 1 
+\i (00:05:10) setwindow pcb
+\i (00:05:10) zoom in 32.668 26.922
+\t (00:05:10) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:05:10) trapsize 326
+\i (00:05:12) drag_start grid 64.273 47.752
+\i (00:05:12) slide 
+\t (00:05:12) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:05:12) No valid items selected for the current operation, exiting.
+\i (00:05:12) generaledit 
+\i (00:05:14) drag_stop grid 32.211 19.609
+\i (00:05:15) drag_start grid 68.190 48.079
+\i (00:05:15) slide 
+\t (00:05:15) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:05:15) No valid items selected for the current operation, exiting.
+\i (00:05:15) generaledit 
+\i (00:05:16) drag_stop grid 48.536 28.555
+\i (00:05:20) drag_start grid 61.269 46.642
+\i (00:05:20) move 
+\t (00:05:20) last pick:  60.918 45.543
+\t (00:05:20) Pick new location for the element(s).
+\i (00:05:23) drag_stop grid 60.681 45.924
+\i (00:05:23) generaledit 
+\i (00:05:24) pick grid 62.967 47.818
+\t (00:05:24) last pick:  63.000 47.800
+\i (00:05:25) drag_start grid 62.967 47.818
+\i (00:05:25) slide 
+\t (00:05:25) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:05:25) No valid items selected for the current operation, exiting.
+\i (00:05:25) generaledit 
+\i (00:05:26) drag_stop grid 64.599 48.862
+\i (00:05:28) drag_start grid 74.002 46.642
+\i (00:05:28) move 
+\t (00:05:28) last pick:  62.555 46.575
+\t (00:05:28) Moving J3 / CON5_BLKCON100VHTM1SQSW1005_AVR / BLKCON100VHTM1SQSW1005.
+\t (00:05:28) Pick new location for the element(s).
+\i (00:05:34) drag_stop grid 29.011 19.609
+\i (00:05:35) generaledit 
+\i (00:05:35) zoom out 1 
+\i (00:05:35) setwindow pcb
+\i (00:05:35) zoom out 56.698 32.538
+\t (00:05:35) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:05:35) trapsize 653
+\i (00:05:38) drag_start grid 85.037 59.049
+\i (00:05:38) move 
+\t (00:05:38) last pick:  75.305 57.814
+\t (00:05:38) Moving R12 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:05:38) Pick new location for the element(s).
+\i (00:05:42) drag_stop grid 49.907 26.922
+\i (00:05:42) generaledit 
+\i (00:05:45) drag_start grid 76.810 64.664
+\i (00:05:45) move 
+\t (00:05:45) last pick:  75.914 63.935
+\t (00:05:45) Moving R7 / R_AX400X100031_1.5K_SMDRES / AX400X100031.
+\t (00:05:45) Pick new location for the element(s).
+\i (00:05:46) drag_stop grid 75.765 9.161
+\i (00:05:47) generaledit 
+\i (00:05:49) drag_start grid 64.403 58.787
+\i (00:05:49) move 
+\t (00:05:49) last pick:  62.860 57.814
+\t (00:05:49) Moving R13 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:05:49) Pick new location for the element(s).
+\i (00:05:54) drag_stop grid 50.299 21.176
+\i (00:05:54) generaledit 
+\i (00:05:56) drag_start grid 70.280 65.056
+\i (00:05:56) move 
+\t (00:05:56) last pick:  63.469 63.935
+\t (00:05:56) Moving R6 / R_AX400X100031_27_SMDRES / AX400X100031.
+\t (00:05:56) Pick new location for the element(s).
+\i (00:05:58) drag_stop grid 88.955 9.552
+\i (00:05:58) generaledit 
+\i (00:06:00) drag_start grid 61.530 64.664
+\i (00:06:00) move 
+\t (00:06:01) last pick:  51.024 63.935
+\t (00:06:01) Moving R5 / R_AX400X100031_27_SMDRES / AX400X100031.
+\t (00:06:01) Pick new location for the element(s).
+\i (00:06:02) drag_stop grid 79.552 30.187
+\i (00:06:02) generaledit 
+\i (00:06:04) drag_start grid 47.948 59.440
+\i (00:06:04) move 
+\t (00:06:05) last pick:  44.942 59.401
+\t (00:06:05) Moving C1 / CAPACITOR NON-POL_CPCYL1D225LS1 / CPCYL1D225LS100031.
+\t (00:06:05) Pick new location for the element(s).
+\i (00:06:07) drag_stop grid 65.709 18.564
+\i (00:06:08) generaledit 
+\i (00:06:09) drag_start grid 47.295 64.664
+\i (00:06:09) move 
+\t (00:06:09) last pick:  38.579 63.935
+\t (00:06:09) Moving R4 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:06:09) Pick new location for the element(s).
+\i (00:06:10) drag_stop grid 51.996 38.806
+\i (00:06:10) generaledit 
+\i (00:06:14) drag_start grid 47.687 65.840
+\i (00:06:14) move 
+\t (00:06:14) last pick:  38.937 68.152
+\t (00:06:14) Moving Y2 / ZTA_RAD450X200LS300031_6MHZ_ / RAD450X200LS300031.
+\t (00:06:14) Pick new location for the element(s).
+\i (00:06:16) drag_stop grid 64.926 27.444
+\i (00:06:16) generaledit 
+\i (00:06:21) drag_start grid 20.523 32.276
+\i (00:06:21) move 
+\t (00:06:21) last pick:  22.200 33.300
+\t (00:06:21) Moving D1 / LED_CYLD250LS125031_LED_ / CYLD250LS125031.
+\t (00:06:21) Pick new location for the element(s).
+\i (00:06:23) drag_stop grid 15.952 32.668
+\i (00:06:23) generaledit 
+\i (00:06:25) drag_start grid 25.094 58.787
+\i (00:06:25) move 
+\t (00:06:25) last pick:  22.614 58.934
+\t (00:06:25) Pick new location for the element(s).
+\i (00:06:27) drag_stop grid 22.351 58.657
+\i (00:06:27) generaledit 
+\i (00:06:29) drag_start grid 25.094 56.829
+\i (00:06:29) move 
+\t (00:06:29) last pick:  26.376 59.401
+\t (00:06:29) Moving C9 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:06:29) Pick new location for the element(s).
+\i (00:06:31) drag_stop grid 23.918 32.799
+\i (00:06:31) generaledit 
+\i (00:06:33) drag_start grid 35.019 65.448
+\i (00:06:33) move 
+\t (00:06:33) last pick:  26.134 63.935
+\t (00:06:33) Moving R3 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:06:33) Pick new location for the element(s).
+\i (00:06:39) drag_stop grid 76.287 4.982
+\i (00:06:40) generaledit 
+\i (00:06:40) zoom in 1 
+\i (00:06:40) setwindow pcb
+\i (00:06:40) zoom in 15.429 21.567
+\t (00:06:40) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:06:40) trapsize 326
+\i (00:06:48) drag_start grid 60.486 27.967
+\i (00:06:48) move 
+\t (00:06:48) last pick:  49.900 26.900
+\t (00:06:48) Moving R12 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:06:48) Pick new location for the element(s).
+\i (00:06:51) drag_stop grid 49.777 25.616
+\i (00:06:52) generaledit 
+\i (00:06:55) drag_start grid 24.571 9.096
+\i (00:06:55) move 
+\t (00:06:55) last pick:  17.400 8.000
+\t (00:06:55) Moving R15 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:06:55) Pick new location for the element(s).
+\i (00:06:56) drag_stop grid 53.956 17.584
+\i (00:06:56) generaledit 
+\i (00:06:58) drag_start grid 36.848 10.336
+\i (00:06:58) move 
+\t (00:06:59) last pick:  32.500 9.600
+\t (00:06:59) Moving C2 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031.
+\t (00:06:59) Pick new location for the element(s).
+\i (00:07:00) drag_stop grid 22.808 9.292
+\i (00:07:01) generaledit 
+\i (00:07:03) drag_start grid 11.316 12.034
+\i (00:07:03) move 
+\t (00:07:04) last pick:  7.500 9.400
+\t (00:07:04) Moving C8 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:07:04) Pick new location for the element(s).
+\i (00:07:06) drag_stop grid 16.083 9.226
+\i (00:07:06) generaledit 
+\i (00:07:08) drag_start grid 5.113 18.107
+\i (00:07:09) move 
+\t (00:07:09) last pick:  6.500 21.000
+\t (00:07:09) Moving C6 / CAPACITOR POL_CPCYL1D225LS10003 / CPCYL1D225LS100031.
+\t (00:07:09) Pick new location for the element(s).
+\i (00:07:12) drag_stop grid 8.769 9.030
+\i (00:07:12) generaledit 
+\i (00:07:16) drag_start grid 8.182 29.599
+\i (00:07:16) move 
+\t (00:07:16) last pick:  9.400 32.400
+\t (00:07:16) Moving C3 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031.
+\t (00:07:16) Pick new location for the element(s).
+\i (00:07:19) drag_stop grid 8.965 32.734
+\i (00:07:19) generaledit 
+\i (00:07:20) iangle 90 
+\e (00:07:20) angle command is not allowed in this mode.
+\i (00:07:21) iangle 90 
+\e (00:07:21) angle command is not allowed in this mode.
+\i (00:07:25) prepopup -8.600 19.086
+\i (00:07:25) drag_start grid -8.796 23.200
+\i (00:07:25) drag_stop -8.796 20.066
+\i (00:07:27) pick grid 7.072 34.497
+\t (00:07:27) last pick:  7.100 34.500
+\i (00:07:29) iangle 90 
+\e (00:07:29) angle command is not allowed in this mode.
+\i (00:07:33) move 
+\t (00:07:33) last pick:  9.000 32.700
+\t (00:07:33) Moving C3 / CAPACITOR NON-POL_CPCYL1D225L_2 / CPCYL1D225LS100031.
+\t (00:07:33) Pick new location for the element(s).
+\i (00:07:35) prepopup 8.835 32.668
+\i (00:07:37) rotate 
+\t (00:07:37) Spin the element(s).
+\i (00:07:40) iangle 270.000
+\t (00:07:40) last angle:  270.000 Degrees
+\i (00:07:42) pick grid 10.206 33.974
+\t (00:07:42) last pick:  10.200 34.000
+\i (00:07:42) generaledit 
+\i (00:07:44) pick grid 14.320 35.215
+\t (00:07:44) last pick:  14.300 35.200
+\i (00:07:45) pick grid 19.805 35.868
+\t (00:07:45) last pick:  19.800 35.900
+\i (00:07:45) prepopup 19.805 35.868
+\i (00:07:50) pop dyn_option_select @:@Move 
+\i (00:07:50) move 
+\t (00:07:50) last pick:  19.800 35.900
+\t (00:07:50) last pick:  16.000 32.700
+\t (00:07:50) Moving D1 / LED_CYLD250LS125031_LED_ / CYLD250LS125031.
+\t (00:07:50) Pick new location for the element(s).
+\i (00:07:52) prepopup 16.148 32.603
+\i (00:07:53) rotate 
+\t (00:07:53) Spin the element(s).
+\i (00:07:57) iangle -90.000
+\t (00:07:57) last angle:  270.000 Degrees
+\i (00:07:59) pick grid 17.389 33.974
+\t (00:07:59) last pick:  17.400 34.000
+\i (00:07:59) generaledit 
+\i (00:08:01) pick grid 26.269 35.150
+\t (00:08:01) last pick:  26.300 35.200
+\i (00:08:01) prepopup 26.269 35.150
+\i (00:08:05) pop dyn_option_select @:@Move 
+\i (00:08:05) move 
+\t (00:08:05) last pick:  26.300 35.200
+\t (00:08:05) last pick:  23.900 32.800
+\t (00:08:05) Moving C9 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:08:05) Pick new location for the element(s).
+\i (00:08:06) prepopup 23.396 32.603
+\i (00:08:08) rotate 
+\t (00:08:08) Spin the element(s).
+\i (00:08:10) iangle -90.000
+\t (00:08:10) last angle:  270.000 Degrees
+\i (00:08:11) pick grid 24.506 33.778
+\t (00:08:11) last pick:  24.500 33.800
+\i (00:08:11) generaledit 
+\i (00:08:16) pick grid 12.491 24.245
+\t (00:08:16) last pick:  12.500 24.200
+\i (00:08:17) prepopup 12.491 24.245
+\i (00:08:18) pop dyn_option_select @:@Move 
+\i (00:08:18) move 
+\t (00:08:19) last pick:  12.500 24.200
+\t (00:08:19) last pick:  15.000 15.600
+\t (00:08:19) Moving IC1 / ATMEGA8-DIL28_1_QUAD80M32WG900_ / QUAD80M32WG900.
+\t (00:08:19) Pick new location for the element(s).
+\i (00:08:20) prepopup 12.426 17.258
+\i (00:08:22) rotate 
+\t (00:08:22) Spin the element(s).
+\i (00:08:30) iangle 270.000
+\t (00:08:30) last angle:  270.000 Degrees
+\i (00:08:35) prepopup 11.512 24.702
+\i (00:08:37) rotate 
+\t (00:08:37) Spin the element(s).
+\i (00:08:41) iangle 0.000
+\t (00:08:41) last angle:  0.000 Degrees
+\i (00:08:43) pick grid 13.536 17.780
+\t (00:08:43) last pick:  13.500 17.800
+\i (00:08:44) generaledit 
+\i (00:08:47) pick grid 28.424 20.915
+\t (00:08:47) last pick:  28.400 20.900
+\i (00:08:48) prepopup 28.881 20.849
+\i (00:08:50) pop dyn_option_select @:@Move 
+\i (00:08:50) move 
+\t (00:08:50) last pick:  28.900 20.800
+\t (00:08:50) last pick:  29.000 19.600
+\t (00:08:50) Moving J3 / CON5_BLKCON100VHTM1SQSW1005_AVR / BLKCON100VHTM1SQSW1005.
+\t (00:08:50) Pick new location for the element(s).
+\i (00:08:51) prepopup 26.726 19.217
+\i (00:08:53) rotate 
+\t (00:08:53) Spin the element(s).
+\i (00:08:55) iangle -90.000
+\t (00:08:55) last angle:  270.000 Degrees
+\i (00:08:57) pick grid 27.575 24.245
+\t (00:08:57) last pick:  27.600 24.200
+\i (00:08:57) generaledit 
+\i (00:09:03) drag_start grid 43.508 6.941
+\i (00:09:03) move 
+\t (00:09:03) last pick:  43.900 9.600
+\t (00:09:03) Moving Y1 / ZTA_RAD450X200LS300031_3.6864MH / RAD450X200LS300031.
+\t (00:09:03) Pick new location for the element(s).
+\i (00:09:05) drag_stop grid 33.126 8.769
+\i (00:09:05) generaledit 
+\i (00:09:07) drag_start grid 56.111 7.267
+\i (00:09:07) move 
+\t (00:09:07) last pick:  57.700 9.900
+\t (00:09:07) Moving C7 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:09:07) Pick new location for the element(s).
+\i (00:09:09) drag_stop grid 47.687 9.422
+\i (00:09:09) generaledit 
+\i (00:09:10) drag_start grid 64.795 7.529
+\i (00:09:10) move 
+\t (00:09:10) last pick:  66.400 9.900
+\t (00:09:10) Moving C5 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:09:10) Pick new location for the element(s).
+\i (00:09:12) drag_stop grid 57.025 9.357
+\i (00:09:12) generaledit 
+\i (00:09:13) prepopup 56.829 9.357
+\i (00:09:14) pick grid 56.372 6.745
+\t (00:09:14) last pick:  56.400 6.700
+\i (00:09:14) drag_start grid 55.262 6.810
+\i (00:09:15) move 
+\t (00:09:15) last pick:  57.000 9.400
+\t (00:09:15) Moving C5 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:09:15) Pick new location for the element(s).
+\i (00:09:16) drag_stop
+\i (00:09:16) prepopup 56.111 9.096
+\i (00:09:18) rotate 
+\t (00:09:18) Spin the element(s).
+\i (00:09:19) iangle 90.000
+\t (00:09:19) last angle:  90.000 Degrees
+\i (00:09:21) pick grid 57.743 8.443
+\t (00:09:21) last pick:  57.700 8.400
+\i (00:09:21) generaledit 
+\i (00:09:24) pick grid 51.866 11.577
+\t (00:09:24) last pick:  51.900 11.600
+\i (00:09:24) prepopup 51.866 11.577
+\i (00:09:26) pop dyn_option_select @:@Move 
+\i (00:09:26) move 
+\t (00:09:26) last pick:  51.900 11.600
+\t (00:09:26) last pick:  47.700 9.400
+\t (00:09:26) Moving C7 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:09:26) Pick new location for the element(s).
+\i (00:09:27) prepopup 47.948 9.814
+\i (00:09:28) rotate 
+\t (00:09:29) Spin the element(s).
+\i (00:09:31) iangle 90.000
+\t (00:09:31) last angle:  90.000 Degrees
+\i (00:09:34) prepopup 48.797 8.573
+\i (00:09:35) rotate 
+\t (00:09:35) Spin the element(s).
+\i (00:09:42) iangle 270.000
+\t (00:09:42) last angle:  270.000 Degrees
+\i (00:09:43) pick grid 48.275 10.402
+\t (00:09:43) last pick:  48.300 10.400
+\i (00:09:44) generaledit 
+\i (00:09:49) drag_start grid 87.193 6.288
+\i (00:09:49) move 
+\t (00:09:49) last pick:  76.300 5.000
+\t (00:09:49) Moving R3 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:09:49) Pick new location for the element(s).
+\i (00:09:51) drag_stop grid 62.836 9.422
+\i (00:09:51) generaledit 
+\i (00:09:52) prepopup 62.967 9.422
+\i (00:09:53) pop dyn_option_select @:@Move 
+\i (00:09:53) move 
+\t (00:09:53) last pick:  63.000 9.400
+\t (00:09:53) last pick:  62.800 9.400
+\t (00:09:53) Moving R3 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:09:53) Pick new location for the element(s).
+\i (00:09:54) prepopup 62.706 10.010
+\i (00:09:56) rotate 
+\t (00:09:56) Spin the element(s).
+\i (00:09:58) iangle -90.000
+\t (00:09:58) last angle:  270.000 Degrees
+\i (00:10:01) pick grid 63.946 14.777
+\t (00:10:01) last pick:  63.900 14.800
+\i (00:10:01) generaledit 
+\i (00:10:04) drag_start grid 69.627 20.327
+\i (00:10:04) move 
+\t (00:10:04) last pick:  65.700 18.600
+\t (00:10:04) Moving C1 / CAPACITOR NON-POL_CPCYL1D225LS1 / CPCYL1D225LS100031.
+\t (00:10:04) Pick new location for the element(s).
+\i (00:10:05) drag_stop grid 68.517 20.327
+\i (00:10:05) generaledit 
+\i (00:10:08) drag_start grid 43.443 16.540
+\i (00:10:08) move 
+\t (00:10:08) last pick:  42.700 15.200
+\t (00:10:08) Moving R11 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:10:08) Pick new location for the element(s).
+\i (00:10:14) drag_stop grid 34.040 16.474
+\i (00:10:14) generaledit 
+\i (00:10:16) drag_start grid 75.700 10.532
+\i (00:10:17) move 
+\t (00:10:17) last pick:  75.800 9.200
+\t (00:10:17) Moving R7 / R_AX400X100031_1.5K_SMDRES / AX400X100031.
+\t (00:10:17) Pick new location for the element(s).
+\i (00:10:18) drag_stop grid 67.995 11.969
+\i (00:10:18) generaledit 
+\i (00:10:19) prepopup 68.778 13.405
+\i (00:10:21) pop dyn_option_select @:@Move 
+\i (00:10:21) move 
+\t (00:10:21) last pick:  68.800 13.400
+\t (00:10:21) last pick:  68.000 12.000
+\t (00:10:21) Moving R7 / R_AX400X100031_1.5K_SMDRES / AX400X100031.
+\t (00:10:21) Pick new location for the element(s).
+\i (00:10:23) prepopup 74.133 7.267
+\i (00:10:25) rotate 
+\t (00:10:25) Spin the element(s).
+\i (00:10:27) iangle 180.000
+\t (00:10:27) last angle:  180.000 Degrees
+\i (00:10:29) pick grid 85.038 5.961
+\t (00:10:29) last pick:  85.000 6.000
+\i (00:10:29) generaledit 
+\i (00:10:31) zoom out 1 
+\i (00:10:31) setwindow pcb
+\i (00:10:31) zoom out 96.008 19.805
+\t (00:10:31) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:10:31) trapsize 653
+\i (00:10:31) zoom out 1 
+\i (00:10:31) setwindow pcb
+\i (00:10:31) zoom out 175.802 19.804
+\t (00:10:31) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:10:31) trapsize 1306
+\i (00:10:32) zoom in 1 
+\i (00:10:32) setwindow pcb
+\i (00:10:32) zoom in 52.910 34.104
+\t (00:10:32) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:10:32) trapsize 653
+\i (00:10:33) zoom in 1 
+\i (00:10:33) setwindow pcb
+\i (00:10:33) zoom in 52.910 34.104
+\t (00:10:33) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:10:33) trapsize 326
+\i (00:10:37) pick grid 97.118 38.218
+\t (00:10:37) last pick:  97.100 38.200
+\i (00:10:37) prepopup 97.118 38.218
+\i (00:10:39) pop dyn_option_select @:@Copy 
+\i (00:10:39) copy 
+\i (00:10:42) pick grid 97.248 38.544
+\t (00:10:42) last pick:  97.200 38.500
+\i (00:10:43) prepopup 96.922 38.087
+\i (00:10:45) done 
+\i (00:10:46) generaledit 
+\i (00:10:47) zoom out 1 
+\i (00:10:47) setwindow pcb
+\i (00:10:47) zoom out 98.489 25.550
+\t (00:10:47) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:10:47) trapsize 653
+\i (00:10:48) zoom in 1 
+\i (00:10:48) setwindow pcb
+\i (00:10:48) zoom in 53.563 21.763
+\t (00:10:48) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:10:48) trapsize 326
+\i (00:10:50) zoom out 1 
+\i (00:10:50) setwindow pcb
+\i (00:10:50) zoom out 38.414 16.670
+\t (00:10:50) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:10:50) trapsize 653
+\i (00:10:52) zoom in 1 
+\i (00:10:52) setwindow pcb
+\i (00:10:52) zoom in 32.015 9.357
+\t (00:10:52) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:10:52) trapsize 326
+\i (00:10:53) zoom out 1 
+\i (00:10:53) setwindow pcb
+\i (00:10:53) zoom out 29.599 9.749
+\t (00:10:53) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:10:53) trapsize 653
+\i (00:10:53) zoom out 1 
+\i (00:10:53) setwindow pcb
+\i (00:10:53) zoom out 29.600 9.749
+\t (00:10:53) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:10:53) trapsize 1306
+\i (00:10:54) zoom in 1 
+\i (00:10:54) setwindow pcb
+\i (00:10:54) zoom in 20.784 15.299
+\t (00:10:54) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:10:54) trapsize 653
+\i (00:10:56) zoom in 1 
+\i (00:10:56) setwindow pcb
+\i (00:10:56) zoom in 28.228 19.609
+\t (00:10:56) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:10:56) trapsize 326
+\i (00:11:02) drag_start grid 35.802 18.108
+\i (00:11:02) move 
+\t (00:11:02) last pick:  34.000 16.500
+\t (00:11:02) Moving R11 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:11:02) Pick new location for the element(s).
+\i (00:11:04) drag_stop grid 33.582 17.846
+\i (00:11:04) generaledit 
+\i (00:11:06) drag_start grid 31.493 24.833
+\i (00:11:06) move 
+\t (00:11:06) last pick:  31.200 23.700
+\t (00:11:06) Moving R1 / R_AX400X100031_470_SMDRES / AX400X100031.
+\t (00:11:06) Pick new location for the element(s).
+\i (00:11:09) drag_stop grid 68.256 11.317
+\i (00:11:10) generaledit 
+\i (00:11:11) prepopup 68.843 12.623
+\i (00:11:12) pop dyn_option_select @:@Move 
+\i (00:11:12) move 
+\t (00:11:13) last pick:  68.800 12.600
+\t (00:11:13) last pick:  68.300 11.300
+\t (00:11:13) Moving R1 / R_AX400X100031_470_SMDRES / AX400X100031.
+\t (00:11:13) Pick new location for the element(s).
+\i (00:11:14) prepopup 67.537 11.970
+\i (00:11:16) rotate 
+\t (00:11:16) Spin the element(s).
+\i (00:11:17) iangle -90.000
+\t (00:11:17) last angle:  270.000 Degrees
+\i (00:11:20) pick grid 68.125 14.908
+\t (00:11:20) last pick:  68.100 14.900
+\i (00:11:20) generaledit 
+\i (00:11:24) drag_start grid 83.274 7.268
+\i (00:11:25) move 
+\t (00:11:25) last pick:  85.000 6.000
+\t (00:11:25) Moving R7 / R_AX400X100031_1.5K_SMDRES / AX400X100031.
+\t (00:11:25) Pick new location for the element(s).
+\i (00:11:29) drag_stop grid 88.041 5.831
+\i (00:11:29) generaledit 
+\i (00:11:31) drag_start grid 50.886 22.352
+\i (00:11:31) move 
+\t (00:11:31) last pick:  50.300 21.200
+\t (00:11:31) Moving R13 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:11:31) Pick new location for the element(s).
+\i (00:11:34) drag_stop grid 31.166 23.854
+\i (00:11:34) generaledit 
+\i (00:11:35) drag_start grid 42.789 19.348
+\i (00:11:35) move 
+\t (00:11:36) last pick:  33.600 17.800
+\t (00:11:36) Moving R11 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:11:36) Pick new location for the element(s).
+\i (00:11:38) drag_stop grid 31.166 18.891
+\i (00:11:38) generaledit 
+\i (00:11:38) prepopup 31.166 18.891
+\i (00:11:40) pop dyn_option_select @:@Move 
+\i (00:11:40) move 
+\t (00:11:41) last pick:  31.200 18.900
+\t (00:11:41) last pick:  31.200 18.900
+\t (00:11:41) Moving R11 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:11:41) Pick new location for the element(s).
+\i (00:11:42) prepopup 32.015 19.218
+\i (00:11:43) rotate 
+\t (00:11:43) Spin the element(s).
+\i (00:11:45) iangle -90.000
+\t (00:11:45) last angle:  270.000 Degrees
+\i (00:11:46) pick grid 31.101 23.984
+\t (00:11:46) last pick:  31.100 24.000
+\i (00:11:47) generaledit 
+\i (00:11:48) pick grid 42.332 23.789
+\t (00:11:48) last pick:  42.300 23.800
+\i (00:11:49) prepopup 42.332 23.789
+\i (00:11:50) pop dyn_option_select @:@Move 
+\i (00:11:50) move 
+\t (00:11:50) last pick:  42.300 23.800
+\t (00:11:50) last pick:  31.200 23.900
+\t (00:11:50) Moving R13 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:11:50) Pick new location for the element(s).
+\i (00:11:50) prepopup 42.332 23.789
+\i (00:11:52) rotate 
+\t (00:11:52) Spin the element(s).
+\i (00:11:56) iangle -90.000
+\t (00:11:56) last angle:  270.000 Degrees
+\i (00:11:58) pick grid 35.998 24.246
+\t (00:11:58) last pick:  36.000 24.200
+\i (00:11:58) generaledit 
+\i (00:12:01) pick grid 50.429 26.792
+\t (00:12:01) last pick:  50.400 26.800
+\i (00:12:02) prepopup 50.886 27.053
+\i (00:12:06) pop dyn_option_select @:@Move 
+\i (00:12:06) move 
+\t (00:12:06) last pick:  50.900 27.100
+\t (00:12:06) last pick:  49.800 25.600
+\t (00:12:06) Moving R12 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:12:06) Pick new location for the element(s).
+\i (00:12:08) prepopup 40.635 24.050
+\i (00:12:09) rotate 
+\t (00:12:09) Spin the element(s).
+\i (00:12:10) iangle -90.000
+\t (00:12:10) last angle:  270.000 Degrees
+\i (00:12:12) pick grid 40.700 23.527
+\t (00:12:12) last pick:  40.700 23.500
+\i (00:12:12) generaledit 
+\i (00:12:14) pick grid 30.187 29.208
+\t (00:12:14) last pick:  30.200 29.200
+\i (00:12:14) prepopup 30.187 29.208
+\i (00:12:15) pop dyn_option_select @:@Move 
+\i (00:12:16) move 
+\t (00:12:16) last pick:  30.200 29.200
+\t (00:12:16) last pick:  28.900 28.100
+\t (00:12:16) Moving J1 / CON5_BLKCON100VHTM1SQSW1005_BBP / BLKCON100VHTM1SQSW1005.
+\t (00:12:16) Pick new location for the element(s).
+\i (00:12:18) prepopup 48.732 25.486
+\i (00:12:20) rotate 
+\t (00:12:20) Spin the element(s).
+\i (00:12:22) iangle 270.000
+\t (00:12:22) last angle:  270.000 Degrees
+\i (00:12:27) prepopup 48.470 32.343
+\i (00:12:32) rotate 
+\t (00:12:32) Spin the element(s).
+\i (00:12:39) iangle 90.000
+\t (00:12:39) last angle:  90.000 Degrees
+\i (00:12:47) pick grid 48.209 25.290
+\t (00:12:47) last pick:  48.200 25.300
+\i (00:12:47) generaledit 
+\i (00:12:54) pick grid 86.670 24.442
+\t (00:12:54) last pick:  86.700 24.400
+\i (00:12:56) drag_start grid 86.801 24.180
+\i (00:12:56) move 
+\t (00:12:56) last pick:  78.500 15.300
+\t (00:12:56) Moving U1 / FT232BM_2_QUAD80M32WG900_FT232B / QUAD80M32WG900.
+\t (00:12:56) Pick new location for the element(s).
+\i (00:12:59) drag_stop grid 79.944 15.430
+\i (00:13:00) generaledit 
+\i (00:13:02) pick grid 63.163 34.889
+\t (00:13:02) last pick:  63.200 34.900
+\i (00:13:02) prepopup 63.097 34.889
+\i (00:13:04) pop dyn_option_select @:@Move 
+\i (00:13:04) move 
+\t (00:13:04) last pick:  63.100 34.900
+\t (00:13:04) last pick:  52.300 33.500
+\t (00:13:04) Moving R2 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:13:04) Pick new location for the element(s).
+\i (00:13:06) prepopup 52.780 33.649
+\i (00:13:08) rotate 
+\t (00:13:08) Spin the element(s).
+\i (00:13:10) iangle -90.000
+\t (00:13:10) last angle:  270.000 Degrees
+\i (00:13:13) prepopup 56.567 35.673
+\i (00:13:15) rotate 
+\t (00:13:15) Spin the element(s).
+\i (00:13:20) iangle 90.000
+\t (00:13:20) last angle:  90.000 Degrees
+\i (00:13:22) pick grid 57.677 23.854
+\t (00:13:22) last pick:  57.700 23.900
+\i (00:13:22) generaledit 
+\i (00:13:24) pick grid 52.715 39.787
+\t (00:13:24) last pick:  52.700 39.800
+\i (00:13:25) drag_start grid 52.649 39.917
+\i (00:13:25) move 
+\t (00:13:25) last pick:  52.000 38.800
+\t (00:13:25) Moving R4 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:13:25) Pick new location for the element(s).
+\i (00:13:26) drag_stop
+\i (00:13:26) prepopup 53.107 36.456
+\i (00:13:28) rotate 
+\t (00:13:28) Spin the element(s).
+\i (00:13:30) iangle 270.000
+\t (00:13:30) last angle:  270.000 Degrees
+\i (00:13:36) pick grid 53.172 34.236
+\t (00:13:36) last pick:  53.200 34.200
+\i (00:13:36) generaledit 
+\i (00:13:39) prepopup 51.866 34.759
+\i (00:13:40) pop dyn_option_select @:@Move 
+\i (00:13:40) move 
+\t (00:13:40) last pick:  51.900 34.800
+\t (00:13:40) last pick:  53.200 34.200
+\t (00:13:40) Moving R4 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:13:40) Pick new location for the element(s).
+\i (00:13:42) prepopup 53.629 35.738
+\i (00:13:43) pick grid 53.368 35.281
+\t (00:13:43) last pick:  53.400 35.300
+\i (00:13:43) generaledit 
+\i (00:13:45) drag_start grid 72.957 36.914
+\i (00:13:45) slide 
+\t (00:13:45) Selected item not valid for current operation, ignored: Arc Segment "Package Geometry/Assembly_Top"
+\t (00:13:45) No valid items selected for the current operation, exiting.
+\i (00:13:45) generaledit 
+\i (00:13:46) drag_stop grid 62.314 38.546
+\i (00:13:48) pick grid 72.761 37.566
+\t (00:13:48) last pick:  72.800 37.600
+\i (00:13:49) pick grid 78.051 37.632
+\t (00:13:49) last pick:  78.100 37.600
+\i (00:13:50) drag_start grid 78.051 37.632
+\i (00:13:50) move 
+\t (00:13:50) last pick:  73.900 34.900
+\t (00:13:50) Moving C10 / CAPACITOR NON-POL_CPCYL1D225L_1 / CPCYL1D225LS100031.
+\t (00:13:50) Pick new location for the element(s).
+\i (00:13:52) drag_stop
+\i (00:13:52) prepopup 65.840 38.546
+\i (00:13:54) rotate 
+\t (00:13:54) Spin the element(s).
+\i (00:13:55) iangle 180.000
+\t (00:13:55) last angle:  180.000 Degrees
+\i (00:13:57) pick grid 68.909 37.566
+\t (00:13:57) last pick:  68.900 37.600
+\i (00:13:57) generaledit 
+\i (00:13:59) drag_start grid 73.741 29.992
+\i (00:13:59) slide 
+\t (00:13:59) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:13:59) No valid items selected for the current operation, exiting.
+\i (00:13:59) generaledit 
+\i (00:14:00) drag_stop grid 78.116 35.020
+\i (00:14:00) pick grid 73.218 29.078
+\t (00:14:00) last pick:  73.200 29.100
+\i (00:14:03) drag_start grid 74.263 29.012
+\i (00:14:03) move 
+\t (00:14:03) last pick:  64.900 27.400
+\t (00:14:03) Moving Y2 / ZTA_RAD450X200LS300031_6MHZ_ / RAD450X200LS300031.
+\t (00:14:03) Pick new location for the element(s).
+\i (00:14:06) drag_stop
+\i (00:14:06) prepopup 65.448 30.971
+\i (00:14:07) rotate 
+\t (00:14:07) Spin the element(s).
+\i (00:14:09) iangle -90.000
+\t (00:14:09) last angle:  270.000 Degrees
+\i (00:14:13) pick grid 62.640 32.147
+\t (00:14:13) last pick:  62.600 32.100
+\i (00:14:13) generaledit 
+\i (00:14:15) drag_start grid 64.795 40.048
+\i (00:14:15) move 
+\t (00:14:15) last pick:  68.900 37.600
+\t (00:14:15) Moving C10 / CAPACITOR NON-POL_CPCYL1D225L_1 / CPCYL1D225LS100031.
+\t (00:14:15) Pick new location for the element(s).
+\i (00:14:17) drag_stop
+\i (00:14:17) prepopup 71.129 37.632
+\i (00:14:19) rotate 
+\t (00:14:19) Spin the element(s).
+\i (00:14:24) iangle 90.000
+\t (00:14:24) last angle:  270.000 Degrees
+\i (00:14:25) pick grid 68.125 38.611
+\t (00:14:25) last pick:  68.100 38.600
+\i (00:14:25) generaledit 
+\i (00:14:28) drag_start grid 65.579 40.048
+\i (00:14:28) move 
+\t (00:14:29) last pick:  68.100 38.600
+\t (00:14:29) Moving C10 / CAPACITOR NON-POL_CPCYL1D225L_1 / CPCYL1D225LS100031.
+\t (00:14:29) Pick new location for the element(s).
+\i (00:14:30) drag_stop grid 73.218 38.546
+\i (00:14:31) generaledit 
+\i (00:14:32) drag_start grid 64.991 33.714
+\i (00:14:32) move 
+\t (00:14:32) last pick:  62.600 32.100
+\t (00:14:32) Moving Y2 / ZTA_RAD450X200LS300031_6MHZ_ / RAD450X200LS300031.
+\t (00:14:32) Pick new location for the element(s).
+\i (00:14:34) drag_stop grid 63.097 34.628
+\i (00:14:34) generaledit 
+\i (00:14:35) drag_start grid 58.983 35.020
+\i (00:14:35) move 
+\t (00:14:36) last pick:  57.700 23.900
+\t (00:14:36) Moving R2 / R_AX400X100031_220_SMDRES / AX400X100031.
+\t (00:14:36) Pick new location for the element(s).
+\i (00:14:39) drag_stop grid 57.743 25.225
+\i (00:14:39) generaledit 
+\i (00:14:40) zoom out 1 
+\i (00:14:40) setwindow pcb
+\i (00:14:40) zoom out 33.191 25.552
+\t (00:14:40) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:14:40) trapsize 653
+\i (00:14:41) zoom in 1 
+\i (00:14:41) setwindow pcb
+\i (00:14:41) zoom in 79.421 20.980
+\t (00:14:41) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:14:41) trapsize 326
+\i (00:14:42) zoom out 1 
+\i (00:14:42) setwindow pcb
+\i (00:14:42) zoom out 33.321 20.262
+\t (00:14:42) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:14:42) trapsize 653
+\i (00:14:43) zoom in 1 
+\i (00:14:43) setwindow pcb
+\i (00:14:43) zoom in 9.053 18.172
+\t (00:14:43) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:14:43) trapsize 326
+\i (00:15:28) cmgr 
+\i (00:15:28) generaledit 
+\i (00:15:33) setwindow cmgr
+\i (00:15:33) cm newView ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:15:40) cm scope Design "AVRUSB500"
+\i (00:15:40) cm putValue ( Net "+5V" ) NO_RAT On 0
+\i (00:15:40) cm endUndoBlock
+\i (00:15:44) cm putValue ( Net "GND" ) NO_RAT On 0
+\i (00:15:45) cm endUndoBlock
+\i (00:15:47) cm putValue ( Net "VCC" ) NO_RAT On 0
+\i (00:15:47) cm endUndoBlock
+\i (00:16:03) cm exit
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom out 1 
+\i (00:16:04) setwindow pcb
+\i (00:16:04) zoom out 40.723 20.066
+\t (00:16:04) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:16:04) trapsize 653
+\i (00:16:05) zoom in 1 
+\i (00:16:05) setwindow pcb
+\i (00:16:05) zoom in 85.387 17.845
+\t (00:16:05) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:16:05) trapsize 326
+\i (00:16:07) drag_start grid 88.391 31.493
+\i (00:16:07) move 
+\t (00:16:07) last pick:  79.600 30.200
+\t (00:16:07) Moving R5 / R_AX400X100031_27_SMDRES / AX400X100031.
+\t (00:16:07) Pick new location for the element(s).
+\i (00:16:13) drag_stop grid 77.747 32.146
+\i (00:16:14) generaledit 
+\i (00:16:15) drag_start grid 98.316 10.859
+\i (00:16:15) move 
+\t (00:16:15) last pick:  89.000 9.600
+\t (00:16:15) Moving R6 / R_AX400X100031_27_SMDRES / AX400X100031.
+\t (00:16:15) Pick new location for the element(s).
+\i (00:16:19) drag_stop grid 91.590 23.527
+\i (00:16:19) generaledit 
+\i (00:16:24) drag_start grid 97.402 41.353
+\i (00:16:24) move 
+\t (00:16:24) last pick:  97.400 41.400
+\t (00:16:24) Element has no origin, using pick.
+\t (00:16:24) Pick new location for the element(s).
+\i (00:16:26) drag_stop grid 100.210 10.793
+\i (00:16:26) generaledit 
+\i (00:16:28) undo 
+\i (00:16:28) trapsize 326
+\i (00:16:28) generaledit 
+\i (00:16:29) pick grid 102.756 35.672
+\t (00:16:29) last pick:  102.800 35.700
+\i (00:16:31) drag_start grid 96.423 37.892
+\i (00:16:31) move 
+\t (00:16:31) last pick:  96.400 37.900
+\t (00:16:31) Element has no origin, using pick.
+\t (00:16:31) Pick new location for the element(s).
+\i (00:16:33) drag_stop grid 96.292 37.370
+\i (00:16:33) generaledit 
+\i (00:16:34) pick grid 102.756 36.717
+\t (00:16:34) last pick:  102.800 36.700
+\i (00:16:36) zoom in 1 
+\i (00:16:36) setwindow pcb
+\i (00:16:36) zoom in 92.831 35.803
+\t (00:16:36) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
+\i (00:16:36) trapsize 163
+\i (00:16:37) drag_start grid tgl 88.783 35.183
+\i (00:16:37) drag_stop 89.272 34.366
+\i (00:16:38) drag_start grid 88.815 35.150
+\i (00:16:39) drag_stop 89.664 33.583
+\i (00:16:40) undo 
+\t (00:16:40) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:16:40) trapsize 326
+\i (00:16:41) generaledit 
+\i (00:16:41) undo 
+\i (00:16:41) trapsize 326
+\i (00:16:41) generaledit 
+\i (00:16:42) undo 
+\i (00:16:42) trapsize 326
+\i (00:16:42) generaledit 
+\i (00:16:45) drag_start grid 85.518 31.754
+\i (00:16:45) move 
+\t (00:16:46) last pick:  79.600 30.200
+\t (00:16:46) Moving R5 / R_AX400X100031_27_SMDRES / AX400X100031.
+\t (00:16:46) Pick new location for the element(s).
+\i (00:16:47) drag_stop grid 78.074 30.905
+\i (00:16:47) generaledit 
+\i (00:16:49) drag_start grid 100.275 38.480
+\i (00:16:49) move 
+\t (00:16:49) last pick:  94.400 36.300
+\t (00:16:49) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:16:49) Pick new location for the element(s).
+\i (00:16:51) drag_stop grid 95.704 35.607
+\i (00:16:51) generaledit 
+\i (00:16:52) pick grid 104.062 38.349
+\t (00:16:52) last pick:  104.100 38.300
+\i (00:16:53) drag_start grid 83.559 40.635
+\i (00:16:53) drag_stop 111.115 27.249
+\i (00:16:54) drag_start grid 117.514 44.487
+\i (00:16:55) drag_stop 84.212 28.881
+\i (00:16:55) pick grid 119.081 33.974
+\t (00:16:55) last pick:  119.100 34.000
+\i (00:16:56) drag_start grid 105.173 37.566
+\i (00:16:56) drag_stop 103.671 36.521
+\i (00:16:57) zoom in 1 
+\i (00:16:57) setwindow pcb
+\i (00:16:57) zoom in 93.941 38.545
+\t (00:16:57) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
+\i (00:16:57) trapsize 163
+\i (00:16:59) drag_start grid 88.619 38.806
+\i (00:16:59) move 
+\t (00:16:59) last pick:  88.600 38.800
+\t (00:16:59) Element has no origin, using pick.
+\t (00:16:59) Pick new location for the element(s).
+\i (00:17:03) drag_stop grid 89.827 37.729
+\i (00:17:04) generaledit 
+\i (00:17:05) pick grid 103.475 35.248
+\t (00:17:05) last pick:  103.500 35.200
+\i (00:17:07) zoom in 1 
+\i (00:17:07) setwindow pcb
+\i (00:17:07) zoom in 90.709 35.639
+\i (00:17:07) trapsize 82
+\i (00:17:10) pick grid 90.138 34.448
+\t (00:17:10) last pick:  90.100 34.400
+\i (00:17:10) pick grid dbl 90.138 34.448
+\t (00:17:10) last pick:  90.100 34.400
+\i (00:17:12) pick grid 89.648 34.284
+\t (00:17:12) last pick:  89.600 34.300
+\i (00:17:12) pick grid dbl 89.648 34.284
+\t (00:17:12) last pick:  89.600 34.300
+\i (00:17:12) pick grid 89.648 34.284
+\t (00:17:12) last pick:  89.600 34.300
+\i (00:17:13) zoom out 1 
+\i (00:17:13) setwindow pcb
+\i (00:17:13) zoom out 89.468 34.219
+\i (00:17:13) trapsize 163
+\i (00:17:13) zoom out 1 
+\i (00:17:13) setwindow pcb
+\i (00:17:13) zoom out 89.436 34.186
+\t (00:17:13) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:17:13) trapsize 326
+\i (00:17:14) zoom out 1 
+\i (00:17:14) setwindow pcb
+\i (00:17:14) zoom out 52.607 29.029
+\t (00:17:14) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:17:14) trapsize 653
+\i (00:17:15) zoom in 1 
+\i (00:17:15) setwindow pcb
+\i (00:17:15) zoom in 20.931 24.718
+\t (00:17:15) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:17:15) trapsize 326
+\i (00:17:22) cmgr 
+\i (00:17:22) generaledit 
+\i (00:17:24) setwindow cmgr
+\i (00:17:24) cm newView ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:17:26) cm scope Design "AVRUSB500"
+\i (00:17:26) cm putValue ( Net "+5V" ) NO_RAT (Clear) 0
+\i (00:17:26) cm endUndoBlock
+\i (00:17:28) cm putValue ( Net "GND" ) NO_RAT (Clear) 0
+\i (00:17:28) cm endUndoBlock
+\i (00:17:31) cm putValue ( Net "GND" ) NO_RAT On 0
+\i (00:17:31) cm endUndoBlock
+\i (00:17:35) cm putValue ( Net "+5V" ) NO_RAT On 0
+\i (00:17:36) cm endUndoBlock
+\i (00:17:38) cm exit
+\i (00:17:42) setwindow pcb
+\i (00:17:42) zoom out 1 
+\i (00:17:42) setwindow pcb
+\i (00:17:42) zoom out 24.915 31.053
+\t (00:17:42) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:17:42) trapsize 653
+\i (00:17:43) zoom in 1 
+\i (00:17:43) setwindow pcb
+\i (00:17:43) zoom in 95.570 35.232
+\t (00:17:43) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:17:43) trapsize 326
+\i (00:17:44) zoom in 1 
+\i (00:17:44) setwindow pcb
+\i (00:17:44) zoom in 95.570 35.232
+\t (00:17:44) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
+\i (00:17:44) trapsize 163
+\i (00:17:44) zoom in 1 
+\i (00:17:44) setwindow pcb
+\i (00:17:44) zoom in 88.943 36.179
+\i (00:17:44) trapsize 82
+\i (00:17:49) drag_start grid 101.775 34.890
+\i (00:17:49) move 
+\t (00:17:49) last pick:  95.700 35.600
+\t (00:17:49) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:17:49) Pick new location for the element(s).
+\i (00:17:58) drag_stop grid 95.832 35.559
+\i (00:17:58) generaledit 
+\i (00:17:59) pick grid 102.199 35.004
+\t (00:17:59) last pick:  102.200 35.000
+\i (00:18:00) zoom in 1 
+\i (00:18:00) setwindow pcb
+\i (00:18:00) zoom in 101.726 39.787
+\i (00:18:00) trapsize 41
+\i (00:18:05) pick grid 101.318 37.314
+\t (00:18:05) last pick:  101.300 37.300
+\i (00:18:06) pick grid 101.391 37.249
+\t (00:18:06) last pick:  101.400 37.200
+\i (00:18:10) pick grid 101.383 34.588
+\t (00:18:10) last pick:  101.400 34.600
+\i (00:18:12) drag_start grid 101.383 34.588
+\i (00:18:12) move 
+\t (00:18:12) last pick:  101.400 34.600
+\t (00:18:12) Element has no origin, using pick.
+\t (00:18:12) Pick new location for the element(s).
+\i (00:18:13) drag_stop grid 101.481 34.694
+\i (00:18:13) generaledit 
+\i (00:18:14) zoom out 1 
+\i (00:18:14) setwindow pcb
+\i (00:18:14) zoom out 102.738 35.894
+\i (00:18:14) trapsize 82
+\i (00:18:15) zoom in 1 
+\i (00:18:15) setwindow pcb
+\i (00:18:15) zoom in 88.339 34.605
+\i (00:18:15) trapsize 41
+\i (00:18:18) pick grid 90.290 34.418
+\t (00:18:18) last pick:  90.300 34.400
+\i (00:18:18) pick grid dbl 90.290 34.418
+\t (00:18:18) last pick:  90.300 34.400
+\i (00:18:21) drag_start grid 90.078 35.977
+\i (00:18:21) move 
+\t (00:18:21) last pick:  95.800 35.600
+\t (00:18:21) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:18:21) Pick new location for the element(s).
+\i (00:18:27) drag_stop grid 95.816 35.626
+\i (00:18:27) generaledit 
+\i (00:18:27) zoom out 1 
+\i (00:18:27) setwindow pcb
+\i (00:18:27) zoom out 95.816 35.626
+\i (00:18:27) trapsize 82
+\i (00:18:28) zoom out 1 
+\i (00:18:28) setwindow pcb
+\i (00:18:28) zoom out 97.905 35.495
+\i (00:18:28) trapsize 163
+\i (00:18:29) pick grid 103.520 35.527
+\t (00:18:29) last pick:  103.500 35.500
+\i (00:18:31) zoom out 1 
+\i (00:18:31) setwindow pcb
+\i (00:18:31) zoom out 103.063 35.005
+\t (00:18:31) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:18:31) trapsize 326
+\i (00:18:32) zoom out 1 
+\i (00:18:32) setwindow pcb
+\i (00:18:32) zoom out 102.932 34.156
+\t (00:18:32) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:18:32) trapsize 653
+\i (00:18:33) zoom in 1 
+\i (00:18:33) setwindow pcb
+\i (00:18:33) zoom in 50.693 8.167
+\t (00:18:33) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:18:33) trapsize 326
+\i (00:18:36) pick grid 101.758 40.491
+\t (00:18:36) last pick:  101.800 40.500
+\i (00:18:36) pick grid dbl 101.758 40.491
+\t (00:18:36) last pick:  101.800 40.500
+\i (00:18:37) pick grid 81.776 40.165
+\t (00:18:37) last pick:  81.800 40.200
+\i (00:18:40) pick grid 41.029 39.316
+\t (00:18:40) last pick:  41.000 39.300
+\i (00:18:41) prepopup 41.029 39.316
+\i (00:18:42) pick grid 40.311 40.948
+\t (00:18:42) last pick:  40.300 40.900
+\i (00:18:45) zoom out 1 
+\i (00:18:45) setwindow pcb
+\i (00:18:45) zoom out 51.869 16.852
+\t (00:18:45) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:18:45) trapsize 653
+\i (00:18:47) zoom in 1 
+\i (00:18:47) setwindow pcb
+\i (00:18:47) zoom in 68.977 4.707
+\t (00:18:47) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:18:47) trapsize 326
+\i (00:18:57) zoom out 1 
+\i (00:18:57) setwindow pcb
+\i (00:18:57) zoom out 20.329 16.331
+\t (00:18:57) Grids are drawn 0.800, 0.800 apart for enhanced viewability.
+\i (00:18:57) trapsize 653
+\i (00:19:04) save 
+\i (00:19:05) fillin yes 
+\i (00:19:05) generaledit 
+\i (00:19:08) zoom in 1 
+\i (00:19:08) setwindow pcb
+\i (00:19:08) zoom in 100.648 40.361
+\t (00:19:08) Grids are drawn 0.400, 0.400 apart for enhanced viewability.
+\i (00:19:08) trapsize 326
+\i (00:19:08) zoom in 1 
+\i (00:19:08) setwindow pcb
+\i (00:19:08) zoom in 100.975 40.557
+\t (00:19:08) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
+\i (00:19:08) trapsize 163
+\i (00:19:33) roam start
+\i (00:19:34) roam x -176
+\i (00:19:34) roam y 48
+\i (00:19:34) roam x -128
+\i (00:19:34) roam y 80
+\i (00:19:34) roam x -48
+\i (00:19:34) roam y 48
+\i (00:19:34) roam x -48
+\i (00:19:34) roam y 16
+\i (00:19:34) roam end
+\i (00:19:36) move 
+\t (00:19:36) Select element(s) to move.
+\i (00:19:37) pick grid 95.063 37.012
+\t (00:19:37) last pick:  95.100 37.000
+\t (00:19:37) last pick:  95.800 35.600
+\t (00:19:37) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:19:37) Pick new location for the element(s).
+\i (00:19:39) pick grid 89.937 35.837
+\t (00:19:39) last pick:  89.900 35.800
+\i (00:19:41) prepopup 101.724 36.816
+\i (00:19:42) cancel 
+\i (00:19:42) generaledit 
+\i (00:19:49) pick grid 85.986 39.820
+\t (00:19:49) last pick:  86.000 39.800
+\i (00:19:49) prepopup 85.660 39.885
+\i (00:19:50) pick grid 83.178 39.885
+\t (00:19:50) last pick:  83.200 39.900
+\i (00:19:51) move 
+\t (00:19:51) Select element(s) to move.
+\i (00:19:53) setwindow form.find
+\i (00:19:53) FORM find all_off  
+\i (00:19:54) FORM find symbols YES 
+\i (00:19:55) setwindow pcb
+\i (00:19:55) pick grid 92.255 36.914
+\t (00:19:55) last pick:  92.300 36.900
+\t (00:19:55) last pick:  95.800 35.600
+\t (00:19:55) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:19:55) Pick new location for the element(s).
+\i (00:19:57) pick grid 83.374 35.608
+\t (00:19:57) last pick:  83.400 35.600
+\i (00:19:59) prepopup 94.116 40.310
+\i (00:19:59) cancel 
+\i (00:20:00) generaledit 
+\i (00:20:07) pick grid 87.358 38.285
+\t (00:20:07) last pick:  87.400 38.300
+\i (00:20:10) delete 
+\i (00:20:13) setwindow form.find
+\i (00:20:13) FORM find all_off  
+\i (00:20:14) FORM find shapes YES 
+\i (00:20:17) setwindow pcb
+\i (00:20:17) grid toggle 
+\i (00:20:17) grid toggle 
+\i (00:20:18) grid toggle 
+\i (00:20:22) prepopup 84.974 37.893
+\i (00:20:22) done 
+\i (00:20:22) generaledit 
+\i (00:20:24) move 
+\t (00:20:24) Select element(s) to move.
+\i (00:20:26) pick grid 89.774 37.567
+\t (00:20:26) last pick:  89.800 37.600
+\t (00:20:26) last pick:  95.800 35.600
+\t (00:20:26) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:20:26) Pick new location for the element(s).
+\i (00:20:27) pick grid 86.835 35.575
+\t (00:20:28) last pick:  86.800 35.600
+\i (00:20:32) prepopup 103.421 39.134
+\i (00:20:32) done 
+\i (00:20:32) generaledit 
+\i (00:20:34) move 
+\t (00:20:34) Select element(s) to move.
+\i (00:20:35) pick grid 83.081 36.849
+\t (00:20:35) last pick:  83.100 36.800
+\t (00:20:35) last pick:  86.800 35.600
+\t (00:20:35) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:20:35) Pick new location for the element(s).
+\i (00:20:37) pick grid 83.309 36.718
+\t (00:20:37) last pick:  83.300 36.700
+\i (00:20:39) zoom out 1 
+\i (00:20:39) setwindow pcb
+\i (00:20:39) zoom out 94.475 35.967
+\i (00:20:39) trapsize 326
+\i (00:20:41) roam start
+\i (00:20:41) roam x -64
+\i (00:20:41) roam y -16
+\i (00:20:42) roam x -128
+\i (00:20:42) roam x -96
+\i (00:20:42) roam y -16
+\i (00:20:43) roam end
+\i (00:20:44) delete 
+\i (00:20:45) pick grid 93.399 35.739
+\t (00:20:45) last pick:  93.400 35.700
+\t (00:20:45) Filled Rectangle "Package Geometry/Place_Bound_Top"
+\i (00:20:47) prepopup 85.693 49.844
+\i (00:20:48) done 
+\i (00:20:48) generaledit 
+\i (00:20:50) move 
+\t (00:20:50) Select element(s) to move.
+\i (00:20:50) pick grid 80.012 37.241
+\t (00:20:50) last pick:  80.000 37.200
+\t (00:20:50) last pick:  83.300 36.700
+\t (00:20:50) Moving J2 / CON4_7_USB_MICRO_USBA_ / USB_MICRO.
+\t (00:20:50) Pick new location for the element(s).
+\i (00:20:51) pick grid 95.358 36.000
+\t (00:20:51) last pick:  95.400 36.000
+\i (00:21:06) drag_start grid 107.373 51.019
+\i (00:21:06) drag_stop 102.018 49.909
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 43.836 27.577
+\i (00:21:08) trapsize 653
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 18.238 23.266
+\i (00:21:09) trapsize 326
+\i (00:21:12) pick grid 36.979 24.638
+\t (00:21:12) last pick:  37.000 24.600
+\t (00:21:12) last pick:  36.000 24.200
+\t (00:21:12) Moving R13 / R_AX400X100031_1K_SMDRES / AX400X100031.
+\t (00:21:12) Pick new location for the element(s).
+\i (00:21:22) pick grid 24.246 24.312
+\t (00:21:22) last pick:  24.200 24.300
+\i (00:21:48) trapsize 723
+\i (00:22:26) zoom out 1 
+\i (00:22:26) setwindow pcb
+\i (00:22:26) zoom out 10.829 21.893
+\i (00:22:26) trapsize 1447
+\i (00:22:27) zoom in 1 
+\i (00:22:27) setwindow pcb
+\i (00:22:27) zoom in 12.276 17.639
+\i (00:22:27) trapsize 723
+\i (00:22:27) zoom in 1 
+\i (00:22:27) setwindow pcb
+\i (00:22:27) zoom in 12.277 21.690
+\i (00:22:27) trapsize 362
+\i (00:22:32) pick grid 12.204 6.138
+\t (00:22:32) last pick:  12.200 6.100
+\t (00:22:32) last pick:  8.800 9.000
+\t (00:22:32) Moving C6 / CAPACITOR POL_CPCYL1D225LS10003 / CPCYL1D225LS100031.
+\t (00:22:32) Pick new location for the element(s).
+\i (00:22:33) pick grid 8.081 9.682
+\t (00:22:33) last pick:  8.100 9.700
+\i (00:22:34) pick grid 12.638 4.329
+\t (00:22:34) last pick:  12.600 4.300
+\i (00:22:48) place manual 
+\i (00:22:50) setwindow form.plc_manual
+\i (00:22:50) FORM plc_manual cancel  
+\i (00:22:50) setwindow pcb
+\i (00:22:50) generaledit 
+\i (00:22:52) drag_start grid 12.494 11.708
+\i (00:22:52) move 
+\t (00:22:52) last pick:  8.100 9.700
+\t (00:22:52) Moving C6 / CAPACITOR POL_CPCYL1D225LS10003 / CPCYL1D225LS100031.
+\t (00:22:52) Pick new location for the element(s).
+\i (00:22:53) drag_stop grid 8.370 13.444
+\i (00:22:53) generaledit 
+\i (00:22:54) drag_start grid 15.966 10.984
+\i (00:22:54) move 
+\t (00:22:54) last pick:  16.048 10.264
+\t (00:22:54) Pick new location for the element(s).
+\i (00:22:55) drag_stop grid 15.966 10.623
+\i (00:22:56) generaledit 
+\i (00:22:56) drag_start grid 14.302 11.346
+\i (00:22:56) move 
+\t (00:22:57) last pick:  16.100 9.200
+\t (00:22:57) Moving C8 / CAPACITOR NON-POL_CPCYL1D225L_3 / CPCYL1D225LS100031.
+\t (00:22:57) Pick new location for the element(s).
+\i (00:22:57) drag_stop grid 14.881 12.721
+\i (00:22:58) generaledit 
+\i (00:23:02) drag_start grid 6.924 15.469
+\i (00:23:02) move 
+\t (00:23:02) last pick:  8.400 13.400
+\t (00:23:02) Moving C6 / CAPACITOR POL_CPCYL1D225LS10003 / CPCYL1D225LS100031.
+\t (00:23:02) Pick new location for the element(s).
+\i (00:23:03) drag_stop grid 8.153 8.742
+\i (00:23:03) generaledit 
+\i (00:23:16) exit 
+\e (00:23:17) Do you want to save the changes you made to C:/Users/user/Desktop/work/avrusb500/allegro/AVRUSB500.brd?
+\i (00:23:20) fillin no 
+\t (00:23:20)     Journal end - Thu Jul 18 15:36:15 2019
